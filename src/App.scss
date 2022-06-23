@@ -37,3 +37,26 @@
     transform: translateY(0px);
   }
 }
+.customize_switch_dark_mode {
+  background: #fff !important;
+  .ant-switch-handle {
+    width: 20px;
+    height: 20px;
+    &::before {
+      background: #000 !important;
+    }
+  }
+}
+.ant-switch-checked {
+  background: #000 !important;
+  box-shadow: 0 0 0 2px #e6f7ff !important;
+  .ant-switch-handle {
+    left: calc(100% - 18px - 4px) !important;
+    &::before {
+      background: #fff !important;
+    }
+  }
+}
+.ant-layout{
+  background-color: #fff !important;
+}
